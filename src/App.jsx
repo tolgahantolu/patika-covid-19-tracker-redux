@@ -1,9 +1,11 @@
+import { Countries, DetailsTable, Header } from "./components";
+
 function App() {
   return (
-    <div className="">
-      <h1 className="text-3xl font-bold underline text-red-700">
-        Hello world!
-      </h1>
+    <div className="flex flex-col items-center w-4/5 h-auto mx-auto py-10">
+      <Header />
+      <Countries />
+      <DetailsTable />
     </div>
   );
 }
